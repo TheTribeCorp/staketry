@@ -32,8 +32,8 @@ export default function RootLayout({
      <div className="flex items-center px-6 py-6 xl:px-24">
         {/* Logo */}
         <a href="index.html" className="shrink-0">
-          <img src="https://mint.toastecosystem.online/images/logotoast.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
-          <img src="https://mint.toastecosystem.online/images/logotoast.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
+          <img src="https://toastecosystem.online/assets/images/favicon.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
+          <img src="https://toastecosystem.online/assets/images/favicon.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
         </a>
 
         {/* Menu / Actions */}
@@ -42,8 +42,8 @@ export default function RootLayout({
           <div className="t-0 fixed left-0 z-10 flex w-full items-center justify-between bg-white p-6 dark:bg-jacarta-800 lg:hidden">
             {/* Mobile Logo */}
             <a href="index.html" className="shrink-0">
-              <img src="https://mint.toastecosystem.online/images/logotoast.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
-              <img src="https://mint.toastecosystem.online/images/logotoast.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
+              <img src="https://toastecosystem.online/assets/images/favicon.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
+              <img src="https://toastecosystem.online/assets/images/favicon.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
             </a>
 
             {/* Mobile Menu Close */}
