@@ -61,7 +61,7 @@ export const Staking = () => {
         <div className="container">
             <div className="py-24 text-center">
               <h1 className ="mb-6 font-display text-5xl text-jacarta-700 dark:text-white lg:text-6xl xl:text-7xl">
-                Toasties Nft Staking.
+                Trump Hair Legacy.
               </h1>
              
               
@@ -85,7 +85,7 @@ export const Staking = () => {
                             getOwnedNFTs();
                         }}
                         
-                    >Claim NFT</TransactionButton>
+                    >Mint NFT</TransactionButton>
              
                </div>
             </div>

@@ -9,8 +9,8 @@ import '../../public/css/style.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Toast NFT Staking",
-  description: "Nft Staking Dapp for Toast Ecosystem",
+  title: "Hair NFT Staking",
+  description: "Nft Staking Dapp for Hair of Trump",
 };
 
 export default function RootLayout({
@@ -32,8 +32,8 @@ export default function RootLayout({
      <div className="flex items-center px-6 py-6 xl:px-24">
         {/* Logo */}
         <a href="index.html" className="shrink-0">
-          <img src="https://toastecosystem.online/assets/images/favicon.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
-          <img src="https://toastecosystem.online/assets/images/favicon.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
+          <img src="https://hairoftrump.com/images/Hair_Main_Logo.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
+          <img src="https://www.hairoftrump.com/images/Hair_Main_Logo.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
         </a>
 
         {/* Menu / Actions */}
@@ -42,8 +42,8 @@ export default function RootLayout({
           <div className="t-0 fixed left-0 z-10 flex w-full items-center justify-between bg-white p-6 dark:bg-jacarta-800 lg:hidden">
             {/* Mobile Logo */}
             <a href="index.html" className="shrink-0">
-              <img src="https://toastecosystem.online/assets/images/favicon.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
-              <img src="https://toastecosystem.online/assets/images/favicon.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
+              <img src="https://www.hairoftrump.com/images/Hair_Main_Logo.png" className="max-h-7 dark:hidden" alt="NFTerra | NFT Marketplace" />
+              <img src="https://www.hairoftrump.com/images/Hair_Main_Logo.png" className="hidden max-h-7 dark:block" alt="NFTerra | NFT Marketplace" />
             </a>
 
             {/* Mobile Menu Close */}
@@ -58,13 +58,13 @@ export default function RootLayout({
           <nav className="navbar w-full ">
             <ul className="flex flex-col lg:flex-row">
               <li className="js-nav-dropdown nav-item dropdown group relative">
-                <a href="#" className="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5">Home</a>
+                <a href="https://www.hairoftrump.com/" className="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5">Home</a>
               </li>
               <li className="js-nav-dropdown nav-item dropdown group relative">
-                <a href="swap.toastecosystem.online" className="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5">Swap</a>
+                <a href="https://app.uniswap.org/explore/tokens/ethereum/0x30410e8f654e8cfde6a270e222ef168c87d7012f" className="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5">Buy Hair</a>
               </li>
               <li className="js-nav-dropdown nav-item dropdown group relative">
-                <a href="toastcity.toastecosystem.online" className="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5">Toast City</a>
+                <a href="https://t.me/+cPf5mjweW99lYzlh" className="flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5">Telegram</a>
               </li>
              
             </ul>
@@ -81,8 +81,8 @@ export default function RootLayout({
                   <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
                 </svg>
               </a>
-              <a href="#" className="group">
-                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" className="h-5 w-5 fill-jacarta-300 group-hover:fill-accent dark:group-hover:fill-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <a href="https://x.com/hair_oftrump?s=21" className="group">
+                <svg aria-hidden="true" focusable="true" data-prefix="fab" data-icon="twitter" className="h-5 w-5 fill-jacarta-300 group-hover:fill-accent dark:group-hover:fill-white" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                   <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.832-46.613 57.668 21.506-2.597 41.956-8.22 60.954-16.972-14.409 21.171-32.508 39.925-53.462 54.833z"></path>
                 </svg>
               </a>

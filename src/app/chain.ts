@@ -1,4 +1,4 @@
 import { defineChain } from 'thirdweb';
-import { bsc } from 'thirdweb/chains';
+import { ethereum } from 'thirdweb/chains';
 
-export const chain = defineChain(bsc);
+export const chain = defineChain(ethereum);
