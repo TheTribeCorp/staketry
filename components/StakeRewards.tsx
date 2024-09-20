@@ -1,5 +1,5 @@
 import { TransactionButton, useActiveAccount, useReadContract } from "thirdweb/react";
-import { REWARD_TOKEN_CONTRACT, STAKING_CONTRACT } from "../utils/contracts";
+import { REWARD_TOKEN_CONTRACT, STAKING_CONTRACT } from '../src/app/utils/contracts';
 import { prepareContractCall, toEther } from "thirdweb";
 import { useEffect } from "react";
 import { balanceOf } from "thirdweb/extensions/erc721";

@@ -1,5 +1,5 @@
 import { MediaRenderer, TransactionButton, useReadContract } from "thirdweb/react";
-import { NFT_CONTRACT, STAKING_CONTRACT } from "../utils/contracts";
+import { NFT_CONTRACT, STAKING_CONTRACT } from '../src/app/utils/contracts';
 import { getNFT } from "thirdweb/extensions/erc721";
 import { client } from "@/app/client";
 import { prepareContractCall } from "thirdweb";
